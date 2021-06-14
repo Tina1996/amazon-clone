@@ -1,0 +1,43 @@
+[debug] [2021-06-14T11:27:47.208Z] ----------------------------------------------------------------------
+[debug] [2021-06-14T11:27:47.211Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\AER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-06-14T11:27:47.211Z] CLI Version:   9.12.1
+[debug] [2021-06-14T11:27:47.211Z] Platform:      win32
+[debug] [2021-06-14T11:27:47.212Z] Node Version:  v14.16.1
+[debug] [2021-06-14T11:27:47.213Z] Time:          Mon Jun 14 2021 16:57:47 GMT+0530 (India Standard Time)
+[debug] [2021-06-14T11:27:47.213Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-14T11:27:47.222Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-14T11:27:47.223Z] > authorizing via signed-in user (ankichandekar@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2021-06-14T11:27:48.248Z] [hub] writing locator at C:\Users\AER\AppData\Local\Temp\hub-work-f881d.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@14 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@14 from host."}}
+[debug] [2021-06-14T11:27:49.320Z] defaultcredentials: writing to file C:\Users\AER\AppData\Roaming\firebase\ankichandekar_gmail_com_application_default_credentials.json
+[debug] [2021-06-14T11:27:49.330Z] Setting GAC to C:\Users\AER\AppData\Roaming\firebase\ankichandekar_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\AER\\AppData\\Roaming\\firebase\\ankichandekar_gmail_com_application_default_credentials.json"}}
+[debug] [2021-06-14T11:27:49.333Z] > refreshing access token with scopes: []
+[debug] [2021-06-14T11:27:49.334Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-14T11:27:49.634Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 14 Jun 2021 11:27:48 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-14T11:27:49.775Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/work-f881d/adminSdkConfig [none]
+[debug] [2021-06-14T11:27:50.498Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/work-f881d/adminSdkConfig 200
+[debug] [2021-06-14T11:27:50.498Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/work-f881d/adminSdkConfig {"projectId":"work-f881d","storageBucket":"work-f881d.appspot.com","locationId":"us-central"}
+[debug] [2021-06-14T11:27:51.585Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/work-f881d/sites 
+[debug] [2021-06-14T11:27:53.264Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/work-f881d/sites 200
+[debug] [2021-06-14T11:27:53.264Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/work-f881d/sites {"sites":[{"name":"projects/329195225733/sites/work-f881d","defaultUrl":"https://work-f881d.web.app","appId":"1:329195225733:web:17707df605336c0b51dfec","type":"DEFAULT_SITE"}]}
+[debug] [2021-06-14T11:27:53.264Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/work-f881d/webApps/1:329195225733:web:17707df605336c0b51dfec/config [none]
+[debug] [2021-06-14T11:27:54.690Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/work-f881d/webApps/1:329195225733:web:17707df605336c0b51dfec/config 200
+[debug] [2021-06-14T11:27:54.690Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/work-f881d/webApps/1:329195225733:web:17707df605336c0b51dfec/config {"projectId":"work-f881d","appId":"1:329195225733:web:17707df605336c0b51dfec","storageBucket":"work-f881d.appspot.com","locationId":"us-central","apiKey":"AIzaSyChxsgbe9OpcujSMSGuE0imJq55jpb0BcE","authDomain":"work-f881d.firebaseapp.com","messagingSenderId":"329195225733","measurementId":"G-DPDRCT59Q4"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2021-06-14T11:27:56.802Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-06-14T11:27:56.802Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-06-14T11:27:56.802Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\AER\\.cache\\firebase\\emulators\\ui-v1.5.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\AER\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.5.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2021-06-14T11:27:56.929Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\AER\Desktop\React\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\AER\\Desktop\\React\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2021-06-14T11:27:57.324Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2021-06-14T11:27:57.325Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2021-06-14T11:27:57.325Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2021-06-14T11:27:57.326Z] [worker-~diagnostic~-2281b732-e6cc-41bd-b651-f2294b1e7e37]: Assigning socketPath: \\?\pipe\C:\Users\AER\Desktop\React\amazon-clone\functions\8292 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-2281b732-e6cc-41bd-b651-f2294b1e7e37]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\AER\\Desktop\\React\\amazon-clone\\functions\\8292"}}
+[debug] [2021-06-14T11:27:57.326Z] [worker-~diagnostic~-2281b732-e6cc-41bd-b651-f2294b1e7e37]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-2281b732-e6cc-41bd-b651-f2294b1e7e37]: BUSY"}}
